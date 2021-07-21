@@ -51,3 +51,57 @@ body::before {
       70% { top: -0.3em; }
       100% { top: 0; }
   }
+
+/* Services Icons */
+.icon-square {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+  /* Section Divider */
+  #service-sec {
+    position: relative;
+    background: #0b1431;
+  }
+
+  .wave {
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background: #0b1431;
+    bottom: 0;
+  }
+  
+  .wave::before, .wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+  }
+  
+  .wave::before {
+    width: 55%;
+    height: 109%;
+    background-color: #fff;
+    right: -1.5%;
+    top: 60%;
+  }
+  .wave::after {
+    width: 55%;
+    height: 100%;
+    background-color: #0b1431;
+    left: -1.5%;
+    top: 40%;
+  }
+
+  #case-studies-sec::after {
+    content: "";
+    display: block;
+    background-image: url(../assets/home/waves.svg);
+  }
+  
