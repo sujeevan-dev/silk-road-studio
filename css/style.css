@@ -1,5 +1,14 @@
+body::before {
+    display: block;
+    content: "";
+    height: 55px;
+}
+/* Custom Utilities */
 .bg-primary-blue {
     background-color: #0b1431;
+}
+.bordRad-2 {
+    border-radius: 2rem;
 }
 
 /* Animation for the hero section icon */
